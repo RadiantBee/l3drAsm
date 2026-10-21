@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/l3drAsm.dir/main.cpp.o -o bin/l3drAsm  lib/GLFW/src/libglfw3.a libglad.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Asus\Desktop\Новая папка (3)\l3drAsm\build\CMakeFiles\670b19883e747117e75267bf3f20b59f\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Asus\Desktop\Новая папка (3)\l3drAsm\lib\GLFW\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Asus\Desktop\Новая папка (3)\l3drAsm\build\lib\GLFW\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C02728F2-ABA8-3447-BF4C-1D905C9F3DA1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

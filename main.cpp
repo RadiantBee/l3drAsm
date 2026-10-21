@@ -2,12 +2,20 @@
 #include <glad/gl.h>
 #define GLFW_INCLUDE_NONE
 #include <GLFW/glfw3.h>
- 
+
+#ifndef LINMATH_H_HEADERS
+#define LINMATH_H_HEADERS
+#endif
+#define _WINDOWS_ 
+
 #include "lib/GLFW/deps/linmath.h"
  
 #include <stdlib.h>
 #include <stddef.h>
 #include <stdio.h>
+
+typedef float vec2[2];
+typedef float vec3[3];
  
 typedef struct Vertex
 {

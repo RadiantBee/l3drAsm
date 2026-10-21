@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Asus\Desktop\Новая папка (3)\l3drAsm\build\CMakeFiles\8692311f8de3bce337f8bffb0edcae2a\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Asus\Desktop\Новая папка (3)\l3drAsm\lib\GLFW\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Asus\Desktop\Новая папка (3)\l3drAsm\lib\GLFW\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\Asus\Desktop\Новая папка (3)\l3drAsm\lib\GLFW\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\Asus\Desktop\Новая папка (3)\l3drAsm\build\lib\GLFW\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C02728F2-ABA8-3447-BF4C-1D905C9F3DA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C8C606C0-D453-3BE9-B0F9-2188479D8CD9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

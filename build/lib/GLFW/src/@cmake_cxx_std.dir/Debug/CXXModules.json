@@ -1,0 +1,12 @@
+{
+	"import-error" : 
+	{
+		"message" : "Unsupported generator: Visual Studio 17 2022",
+		"modules" : 
+		[
+			"std",
+			"std.compat"
+		]
+	},
+	"modules" : {}
+}
