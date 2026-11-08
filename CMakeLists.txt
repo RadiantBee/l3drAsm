@@ -13,13 +13,14 @@ target_include_directories(glad PUBLIC
     lib/glad/include
 )
 
-add_executable(l3drAsm main.cpp)
+add_executable(l3drAsm main.cpp src/model.cpp src/model.h)
 
 set_target_properties(l3drAsm PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"
 )
 
 target_include_directories(l3drAsm PRIVATE
+    src
     lib/glfw/deps
 )
 

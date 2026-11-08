@@ -14,6 +14,8 @@
 #include <stddef.h>
 #include <stdio.h>
 
+#include "src/model.h"
+
 typedef float vec2[2];
 typedef float vec3[3];
  
@@ -62,8 +64,12 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
         glfwSetWindowShouldClose(window, GLFW_TRUE);
 }
  
-int main(void)
+int main(int argc, char* argv[])
 {
+    Model test(argc, argv);
+    
+    printf("%d\n",test.test());
+
     glfwSetErrorCallback(error_callback);
  
     if (!glfwInit())
