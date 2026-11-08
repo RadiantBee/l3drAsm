@@ -67,7 +67,7 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
 int main(int argc, char* argv[])
 {
     Model test(argc, argv);
-    
+
     printf("%d\n",test.test());
 
     glfwSetErrorCallback(error_callback);
@@ -79,7 +79,7 @@ int main(int argc, char* argv[])
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
  
-    GLFWwindow* window = glfwCreateWindow(640, 480, "OpenGL Triangle", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(640, 480, "L3drAsm", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
