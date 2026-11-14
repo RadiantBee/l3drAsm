@@ -21,6 +21,8 @@ Model::Model(int argc, char** argv)
     filename = "";
     bool wasModeSet = false;
     bool wasTestSet = false;
+    rotationMode = glfw;
+    measurementType = fps;
     for (int i = 1; i < argc; ++i)
     {
         std::string arg = argv[i];
@@ -43,7 +45,7 @@ Model::Model(int argc, char** argv)
                     else if(c == 'a')
                     {
                         wasModeSet = true;
-                        rotationMode = cpure;
+                        rotationMode = assembly;
                     }
                 }
                 if(!wasTestSet)
