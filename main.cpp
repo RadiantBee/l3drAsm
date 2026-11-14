@@ -66,9 +66,12 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
  
 int main(int argc, char* argv[])
 {
-    Model test(argc, argv);
+    Model obj(argc, argv);
 
-    printf("%d\n",test.test());
+    //printf("%d\n",test.test());
+    
+    obj.showFields();
+
 
     glfwSetErrorCallback(error_callback);
  
