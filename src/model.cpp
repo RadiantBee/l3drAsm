@@ -65,7 +65,7 @@ Model::Model(int argc, char** argv)
         }
         else if(filename.empty())
             filename = arg;
-        if(wasModeSet && wasTestSet)
+        if(wasModeSet && wasTestSet && !filename.empty())
             break;
     }
     if(filename.empty())
